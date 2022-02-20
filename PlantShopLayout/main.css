@@ -1,0 +1,304 @@
+body {
+    color: black;
+    margin: 0%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+hr {
+    width: 1168px;
+}
+
+
+h3 {
+    color: #156963;
+}
+
+h4 {
+    font-size: 24px;
+    color: gray;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+.line-height {
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    margin: 0 auto;
+    width: 1168px;
+}
+
+.nav-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.basket {
+    padding: 10px
+}
+
+.search {
+    padding: 40px
+}
+
+.login {
+    padding: 8px 20px;
+    width: 142px;
+    text-align: center;
+    color: #156963;
+    text-decoration: none;
+}
+
+.reg {
+    padding: 8px 20px;
+    width: 111px;
+    background: #156963;
+    text-align: center;
+}
+
+.regist {
+    color: white;
+    text-decoration: none;
+}
+
+.btn {
+    display: block;
+}
+
+.head-content {
+    display: flex;
+    justify-content: center;
+}
+
+.header-text {
+    margin-left: 77px;
+    margin-top: 110px;
+}
+
+.header-title {
+    width: 520px;
+    font-size: 68px;
+    margin-bottom: 24px;
+    color: #156963;
+}
+
+.desc {
+    width: 493px;
+    font-size: 18px;
+    margin-bottom: 110px;
+}
+
+.btns {
+    display: flex;
+    text-align: left;
+}
+
+.arrow {
+    width: 21.33px;
+    height: 18.67px;
+}
+
+.btn-rigth {
+    width: 320px;
+    height: 160px;
+    background: #156963;
+    padding-left: 49px;
+    padding-right: 49px;
+}
+
+.btn-left {
+    width: 320px;
+    height: 160px;
+    padding-left: 49px;
+    padding-right: 49px;
+}
+
+.btn-left1 {
+    text-decoration: none;
+}
+
+.btn-right1 {
+    text-decoration: none;
+}
+
+.color-green { 
+    color: white;
+}
+
+.clr-white {
+    color: #156963;
+}
+
+.quality {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 140px;
+    margin-bottom: 83px;
+    text-align: left;
+}
+
+.fast-del {
+    width: 268px;
+    margin-right: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 10px;
+    border: 1px solid #E0E0E0;
+    font-size: 16px;
+}
+
+.grt-service {
+    width: 268px;
+    margin-right: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 10px;
+    border: 1px solid #E0E0E0;
+}
+
+.enter {
+    display: flex;
+    padding-right: 10px;
+    text-align: left;
+}
+
+.img {
+    padding-right: 10px;
+}
+
+.garden {
+    width: 268px;
+    margin-right: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 10px;
+    border: 1px solid #E0E0E0;
+}
+
+.money-check {
+    width: 268px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 10px;
+    border: 1px solid #E0E0E0;
+}
+
+.black {
+    color: black;
+}
+
+.shop-title {
+    display: flex;
+    justify-content: space-between;
+    width: 1168px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+select {
+    width: 130px;
+    padding: 8px 12px;
+    align-items: center;
+}
+
+.cactus {
+    display: flex;
+    width: 1168px;
+    margin: 0 auto;
+    margin-top: 24px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.gray {
+    background: #F3F4F6;
+}
+
+.desc-content {
+    display: flex;
+    width: 1168px;
+    margin: 0 auto;
+    margin-top: 80px;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.desc-title {
+    width: 522px;
+    text-align: left;
+}
+
+.desc-desc {
+    width: 506.69px;
+    text-align: left;
+    margin-bottom: 74px;
+}
+
+.px40 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.banner {
+    width: 1168px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.padding-banner {
+    padding-right: 6px;
+    padding-bottom: 88px;
+    padding-top: 88px;
+    padding-left: 97px;
+}
+
+.visit {
+    display: block;
+    width: 152px;
+    height: 40px;
+    background: #156963;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.long {
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 167px;
+    margin-right: 167px;
+    margin-bottom: 71px;
+}
+
+input {
+    width: 300px;
+    height: 50px;
+    border: 1px solid #E0E0E0;
+    padding-left: 13px;
+    margin-bottom: 14px;
+}
