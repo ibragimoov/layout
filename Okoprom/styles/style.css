@@ -1,0 +1,270 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+#carouselExampleInterval h1, h2 {
+    color: white;
+}
+
+p, input {
+    color: #9F9F9F;
+}
+
+h3 {
+    margin-bottom: 1.5rem;
+}
+
+span {
+    display: inline-block;
+    margin-bottom: 12px;
+}
+
+span:hover {
+    border-bottom: 1px solid;
+}
+
+h4 {
+    margin-bottom: 2rem;
+}
+
+hr {
+    color: #36383C;
+    border: solid 1px;
+    height: 10px;
+    width: 25rem;
+}
+
+.btn-light:hover {
+    background-color: #202226;
+    color: white;
+}
+
+.btn-dark:hover {
+    background-color: white;
+    color: #202226;
+}
+
+/* Title */
+.navbar {
+    padding-left: 3%;
+}
+
+.container-fluid div {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5rem;
+}
+
+.nav-item {
+    margin-right: 32px;
+}
+
+.nav-link:hover {
+    border-bottom: 1px solid black;
+}
+
+.filters button {
+    margin-top: 2rem;
+    margin-right: 0.5rem;
+}
+
+.filters {
+    padding-right: 10rem;
+    padding-left: 10rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Title carousel */
+.title-carousel {
+    background-color: #202226;
+    margin: 2rem 10rem 0 10rem;
+    padding: 3%;
+    border-radius: 1rem;
+}
+
+.title-img {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bg-img {
+    background-color: white;
+    border-radius: 1rem;
+    width: 37rem;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.title-img img {
+    margin: 10px;
+    text-align: center;
+}
+
+.left-right-slide {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.row-info {
+    margin-top: 2rem;
+}
+
+.title-price {
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+}
+
+/* Categories */
+.card {
+    background-color: #F4F5F8;
+    border-radius: 1rem;
+    margin-bottom: 1.5rem;
+    border: none;
+}
+
+.card:hover {
+    box-shadow:
+    1px 1px #202226,
+    2px 2px #202226,
+    3px 3px #202226,
+    4px 4px #202226,
+    5px 5px #202226,
+    6px 6px #202226,
+    7px 7px #202226;
+    transform: translateX(-7px);
+    transition-duration: 0.5s;
+}
+
+.card:hover::after {
+    transform: translateX(-70px);
+    transition-duration: 0.5s;
+}
+
+.container .row {
+    display: flex;
+    justify-content: center;
+}
+
+.categories-heading {
+    margin-top: 7.5rem;
+    margin-bottom: 3.75rem;
+    padding-right: 10rem;
+    padding-left: 10rem;
+    width: 60%;
+}
+
+/* Features */
+#features {
+    margin-bottom: 7.5rem;
+}
+
+#features p {
+    font-size: 16px;
+}
+
+.features-img {
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.features-row {
+    padding: 0 5% 0 0;
+}
+
+.fr-1 {
+    margin-bottom: 2.5rem;
+}
+
+/* Why We */
+#whywe {
+    padding: 0 5% 0;
+}
+
+.wwr-1 {
+    padding: 2.5rem;
+}
+
+.wwr2 {
+    padding: 2rem;
+}
+
+.wwr4 {
+    padding: 0.4rem;
+}
+
+.wwr6 {
+    padding: 3rem;
+}
+
+.wwr7 {
+    padding: 3.8rem;
+}
+
+.whywe-container p {
+    margin-top: 6.3rem;
+}
+
+/* Form */
+#form {
+    margin-top: 1;
+    padding: 7% 15%;
+}
+
+#form hr {
+    border: 1px solid white;
+    color: white;
+    width: auto;
+}
+
+.form-container {
+    background-color: #202226;
+    padding: 3.75rem 2.5rem;
+    border-radius: 20px;
+}
+
+.form-container h1 {
+    color: white;
+}
+
+input {
+    background-color: #202226;
+    color: #9F9F9F;
+    outline: none;
+    border: none;
+}
+
+/* Footer */
+footer {
+    background-color: #F4F5F8;
+    padding: 1.5rem 2.5rem;
+}
+
+footer hr {
+    width: auto;
+    border: none;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+footer p {
+    margin: 0;
+}
+
+.btn-media {
+    border: 1px solid gray;
+    margin-top: 3.75rem;
+    margin-right: 8px;
+}
+
+.subscribe {
+    padding-top: 3.75rem;
+    margin-bottom: 0;
+    margin-left: 1.5rem;
+}
