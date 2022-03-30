@@ -225,7 +225,7 @@ hr {
 
 .form-container {
     background-color: #202226;
-    padding: 3.75rem 2.5rem;
+    padding: 7%;
     border-radius: 20px;
 }
 
@@ -243,7 +243,7 @@ input {
 /* Footer */
 footer {
     background-color: #F4F5F8;
-    padding: 1.5rem 2.5rem;
+    padding: 1.5rem 5.5rem;
 }
 
 footer hr {
